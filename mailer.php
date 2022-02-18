@@ -16,7 +16,7 @@
       //Server settings
       //$mail->SMTPDebug = SMTP::DEBUG_SERVER; // debug
       $mail->isSMTP();
-      $mail->Host = 'smtp.mailtrap.io'; //Your Host exemple mailtrap for a test
+      $mail->Host = 'smtp.mailtrap.io'; //Your Host
       $mail->SMTPAuth = true;
       $mail->Port = 2525;
       $mail->Username = 'username'; // Your SMTP username

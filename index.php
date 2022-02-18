@@ -3,11 +3,11 @@
     <title>PHP Test</title>
   </head>
   <body>
-    <?php
-    
-    include("mailer.php");
-    mailSend('admin@gmail.com','client@gmail.com','My subject','My message');
+    <form action="mailSuccess.php">
+      <label>Email</label>
+      <input type="email" name="email"></input>
+      <button type="submit">Send</button>
+    </form>
 
-    ?> 
   </body>
 </html>
